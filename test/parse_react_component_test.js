@@ -28,6 +28,7 @@ describe('parse-react-component', () => {
       .replace(/ap_button\.jsx$/, '*.jsx')
     let info = parseReactComponent.fromPattern(pattern)
     assert.ok(info)
+    console.log(JSON.stringify(info, null, 4))
     done()
   })
 })
