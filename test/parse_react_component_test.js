@@ -22,6 +22,14 @@ describe('parse-react-component', () => {
     assert.ok(info)
     done()
   })
+
+  it('Parse react component from pattern', (done) => {
+    let pattern = require.resolve('apeman-react-button/lib/ap_button.jsx')
+      .replace(/ap_button\.jsx$/, '*.jsx')
+    let info = parseReactComponent.fromPattern(pattern)
+    assert.ok(info)
+    done()
+  })
 })
 
 /* global describe, before, after, it */
