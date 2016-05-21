@@ -12,9 +12,7 @@ const apeTasking = require('ape-tasking')
 const apeTesting = require('ape-testing')
 
 apeTasking.runTasks('test', [
-  (callback) => {
-    apeTesting.runMocha('test/*_test.js', {
-      timeout: 4000
-    }, callback)
-  }
+  () => apeTesting.runMocha('test/*_test.js', {
+    timeout: 30000
+  })
 ], true)

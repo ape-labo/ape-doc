@@ -12,11 +12,9 @@ const apeTasking = require('ape-tasking')
 const apeCovering = require('ape-covering')
 
 apeTasking.runTasks('cover', [
-  (callback) => {
-    apeCovering.measureCoverage('_mocha', [
-      '-t', 6000, 'test/*_test.js'
-    ], {
-      dir: 'coverage'
-    }, callback)
-  }
+  () => apeCovering.measureCoverage('_mocha', [
+    'test/*_test.js', '-t', 30000
+  ], {
+    dir: 'coverage'
+  })
 ], true)
