@@ -1,6 +1,6 @@
 {
   "name": "ape-doc",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Doc parser of ape.",
   "main": "lib",
   "scripts": {
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/ape-repo/ape-doc#readme",
   "dependencies": {
     "comment-parser": "^0.4.0",
-    "execcli": "^4.0.5",
+    "execcli": "^4.0.6",
     "expandglob": "^3.0.2",
     "react-docgen": "^2.9.1",
     "stringcase": "^3.0.0"
@@ -31,14 +31,14 @@
   "devDependencies": {
     "ape-covering": "^3.0.3",
     "ape-formatting": "^1.0.0",
-    "ape-releasing": "^3.1.1",
+    "ape-releasing": "^4.0.1",
     "ape-reporting": "^3.0.1",
-    "ape-tasking": "^4.0.1",
+    "ape-tasking": "^4.0.2",
     "ape-testing": "^4.0.0",
-    "ape-tmpl": "^5.0.3",
+    "ape-tmpl": "^5.0.5",
     "ape-updating": "^4.0.1",
     "apeman-react-button": "^3.1.10",
-    "coz": "^6.0.2",
+    "coz": "^6.0.3",
     "injectmock": "^2.0.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0"
