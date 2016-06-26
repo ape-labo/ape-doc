@@ -1,6 +1,6 @@
 {
   "name": "ape-doc",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Doc parser of ape.",
   "main": "lib",
   "scripts": {
