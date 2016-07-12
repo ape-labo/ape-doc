@@ -1,10 +1,11 @@
 {
   "name": "ape-doc",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Doc parser of ape.",
   "main": "lib",
   "scripts": {
-    "test": "./ci/test.js"
+    "test": "./ci/test.js",
+    "prepublish": "./ci/build.js"
   },
   "repository": "ape-repo/ape-doc",
   "keywords": [
@@ -22,9 +23,9 @@
   },
   "homepage": "https://github.com/ape-repo/ape-doc#readme",
   "dependencies": {
+    "aglob": "^1.0.1",
     "comment-parser": "^0.4.0",
     "execcli": "^4.0.6",
-    "expandglob": "^3.0.2",
     "react-docgen": "^2.9.1",
     "stringcase": "^3.0.1"
   },
@@ -33,15 +34,15 @@
     "ape-formatting": "^1.0.0",
     "ape-releasing": "^4.0.1",
     "ape-reporting": "^3.0.1",
-    "ape-tasking": "^4.0.2",
-    "ape-testing": "^4.0.0",
+    "ape-tasking": "^4.0.3",
+    "ape-testing": "^4.0.1",
     "ape-tmpl": "^5.0.11",
-    "ape-updating": "^4.0.2",
-    "apeman-react-button": "^3.1.11",
+    "ape-updating": "^4.0.4",
+    "apeman-react-button": "^3.1.15",
     "coz": "^6.0.3",
     "injectmock": "^2.0.0",
-    "react": "^15.1.0",
-    "react-dom": "^15.1.0"
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
   },
   "engines": {
     "node": ">=6",
